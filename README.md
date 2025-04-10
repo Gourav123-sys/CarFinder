@@ -1,5 +1,7 @@
 # 🚗 Car Finder App
 
+[🌐 Live Demo](https://car-finder-jade.vercel.app/)
+
 A sleek and responsive car listing application built using **React**, **Tailwind CSS**, and **Vite**. Users can filter, search, sort, wishlist, and add cars to a cart. Supports dark mode and dynamic car fetching from a live API.
 
 ## 🖼️ Preview

@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import CarCard from "./components/carCard";
-import Filters from "./components/filters";
-import Pagination from "./components/pagination";
-import DarkModeToggle from "./components/DarkModeToggle";
-import useLocalStorage from "./hooks/UseLocalStorage";
-import { getCarModelsByMake } from "./utils/api";
-import CarModel from "./components/CarModel";
+import CarCard from "./components/CarCard.jsx";
+import Filters from "./components/Filters.jsx";
+import Pagination from "./components/Pagination.jsx";
+import DarkModeToggle from "./components/DarkModeToggle.jsx";
+import useLocalStorage from "./hooks/useLocalStorage.jsx";
+import { getCarModelsByMake } from "./utils/api.js";
+import CarModel from "./components/CarModel.jsx";
 
 const carsPerPage = 6;
 

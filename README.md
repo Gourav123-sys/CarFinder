@@ -8,7 +8,9 @@ A sleek and responsive car listing application built using **React**, **Tailwind
 
 > Images are dynamically fetched from Unsplash using live URLs!
 
-![Car Finder Screenshot](https://source.unsplash.com/featured/?car)
+![Car Finder Screenshot](https://cdn.imagin.studio/getimage?customer=img&make=Toyota&modelFamily=Camry)
+
+
 
 ---
 
@@ -31,7 +33,7 @@ A sleek and responsive car listing application built using **React**, **Tailwind
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Vite](https://vitejs.dev/)
-- [Unsplash](https://unsplash.com/) (for dynamic car images)
+- [Imagin Studio](https://www.imagin.studio/) (for dynamic car images)
 - [NHTSA Vehicle API](https://vpic.nhtsa.dot.gov/api/) (for car data)
 
 ---
@@ -90,10 +92,12 @@ Fetching car models dynamically via:
 https://vpic.nhtsa.dot.gov/api/vehicles/GetModelsForMake/{make}?format=json
 ```
 
-Images are retrieved from:
+> Images are dynamically fetched from [Imagin Studio](https://www.imagin.studio/) using car make and model.
+
 
 ```js
-https://source.unsplash.com/400x200/?{Model_Name},car
+[(https://cdn.imagin.studio/getimage?customer=img&make=${make}&modelFamily=${model.Model_Name})](https://cdn.imagin.studio/getimage?customer=img&make=${make}&modelFamily=${model.Model_Name}
+)
 ```
 
 ---
@@ -115,7 +119,7 @@ npm run build
 ## 🙌 Acknowledgements
 
 - Vehicle data from [NHTSA API](https://vpic.nhtsa.dot.gov/api/)
-- Car images via [Unsplash](https://unsplash.com/)
+- Car images via [Imagin Studio](https://www.imagin.studio/)
 - Tailwind UI inspirations
 
 ---

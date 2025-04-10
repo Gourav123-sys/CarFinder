@@ -37,7 +37,7 @@ function App() {
             fuel: index % 2 === 0 ? "Petrol" : "Diesel",
             price: 15000 + (index + 1) * 3000,
             seats: [4, 5, 6][index % 3],
-            image: `https://source.unsplash.com/400x200/?${model.Model_Name},car`,
+            image: `https://cdn.imagin.studio/getimage?customer=img&make=${make}&modelFamily=${model.Model_Name}`,
           });
         });
       }

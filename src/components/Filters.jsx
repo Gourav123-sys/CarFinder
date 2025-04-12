@@ -26,6 +26,8 @@ const Filters = ({ filters, setFilters, search, setSearch }) => {
           <option value="Toyota">Toyota</option>
           <option value="Honda">Honda</option>
           <option value="Hyundai">Hyundai</option>
+          <option value="Ford">Ford</option>
+          <option value="Chevrolet">Chevrolet</option>
         </select>
       </div>
 

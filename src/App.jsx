@@ -7,7 +7,7 @@ import useLocalStorage from "./hooks/useLocalStorage.jsx";
 import { getCarModelsByMake } from "./utils/api.js";
 import CarModel from "./components/CarModel.jsx";
 
-const carsPerPage = 6;
+const carsPerPage = 10;
 
 function App() {
   const [cars, setCars] = useState([]);
